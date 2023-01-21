@@ -1,3 +1,3 @@
 import('./bootstrap');
 
-console.log('bootstraping marketing app!!');
+console.log('bootstraping marketing app!!!');
