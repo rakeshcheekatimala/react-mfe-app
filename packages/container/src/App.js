@@ -1,5 +1,5 @@
 import React, { lazy, Suspense, useState } from 'react';
-import { BrowserRouter, Rout, Switch } from "react-router-dom";
+import { BrowserRouter, Route, Switch } from "react-router-dom";
 import {
   StylesProvider,
   createGenerateClassName,
