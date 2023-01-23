@@ -21,12 +21,12 @@ function App() {
     <BrowserRouter>
       <StylesProvider generateClassName={generateClassName}>
         <div>
-          <Header  onSignOut={() => setIsSignedIn(false)}
+          <Header onSignOut={() => setIsSignedIn(false)}
             isSignedIn={isSignedIn} />
           <Suspense fallback={<Progress />}>
             <Switch>
                <Route path="/auth">
-                <AuthLazy onSignIn={() => setIsSignedIn(true)} />
+                <Auth onSignIn={() => setIsSignedIn(true)} />
               </Route>
               <Route path="/" component={Marketing} />
             </Switch>
