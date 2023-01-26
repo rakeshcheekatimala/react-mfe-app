@@ -30,7 +30,7 @@ function App() {
                 <Auth onSignIn={() => setIsSignedIn(true)} />
               </Route>
                <Route path="/pets">
-                <PetsLazy />
+                <Pets />
               </Route>
               <Route path="/" component={Marketing} />
             </Switch>
