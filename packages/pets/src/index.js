@@ -1,3 +1,3 @@
 import('./bootstrap');
 
-console.log('bootstraping Pets App');
+console.log('bootstraping pets app!');
