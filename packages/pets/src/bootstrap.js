@@ -17,6 +17,11 @@ if (process.env.NODE_ENV === 'development') {
   }
 }
 
+const mountWithoutEl = () => {
+  const root = document.querySelector("#_pets-root");
+  ReactDOM.render(<App />, root);
+};
+
 // We are running through container
 // and we should export the mount function
-export { mount };
+export { mount, mountWithoutEl };
