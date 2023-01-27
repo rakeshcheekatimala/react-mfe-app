@@ -88,7 +88,7 @@ export default function Header({ isSignedIn, onSignOut }) {
             component={RouterLink}
             to="/pets"
           >
-            Pets
+            Pets Shop
           </Typography>
           <Button
             color="primary"
